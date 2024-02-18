@@ -21,7 +21,7 @@ dotenv.config();
 app.use(cors());
 
 mongoose
-  .connect(process.env.MONGODB_URL, {
+  .connect("mongodb://localhost:27017/Netflix", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
