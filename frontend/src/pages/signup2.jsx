@@ -44,7 +44,7 @@ const Container = styled.div`
     flex-direction: column;
 
     .step {
-      color: #333333;
+      color: white;
       margin: 5px 0;
       span {
         font-weight: 600;
@@ -52,13 +52,13 @@ const Container = styled.div`
     }
 
     h1 {
-      color: #333333;
+      color: white;
       margin: 0;
     }
 
     .para {
+      color: white;
       margin: 0.6rem 0;
-      color: #333333;
       font-weight: 400;
       font-size: 1.2rem;
     }
