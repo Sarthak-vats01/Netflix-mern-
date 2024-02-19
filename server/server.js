@@ -26,7 +26,7 @@ mongoose
     console.log("MONGODB connected");
   })
   .catch((err) => {
-    console.log(err);
+    console.log("Error connecting to mongoose", err);
   });
 
 app.use(
