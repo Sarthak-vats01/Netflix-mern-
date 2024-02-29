@@ -8,13 +8,15 @@ import { useNavigate } from "react-router-dom";
 
 const Container = styled.div`
   position: relative;
-  max-height: 94vh;
+  height: 94vh;
   overflow: hidden;
+  justify-content: center; /* Center the content vertically */
+  align-items: center; /* Center the content horizontally */
   border-bottom: 8px solid #232323;
 
   .BackgroundImage {
     width: 100%;
-    height: auto;
+    height: 100%;
     display: block;
     filter: brightness(
       0.45

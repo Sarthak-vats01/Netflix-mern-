@@ -265,7 +265,7 @@ function Netflix() {
         />
         {myList && myList.length > 0 && (
           <CardSlider heading="My List" movieData={myList} />
-        )}{" "}
+        )}
       </div>
     </Container>
   );
