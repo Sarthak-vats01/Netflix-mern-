@@ -105,7 +105,7 @@ function Signup2() {
       .then((res) => {
         console.log(res.data);
         setPassword("");
-        localStorage.setItem("token", response.data.token);
+        localStorage.setItem("token", res.data.token);
 
         navigate(`/home/${res.data.userId}`);
       })
